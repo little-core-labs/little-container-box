@@ -1,0 +1,26 @@
+{
+  "name": "little-container-box",
+  "version": "0.0.0",
+  "description": "A small toolkit for creating and managing Linux Containers (LXC).",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc tape test/*.js"
+  },
+  "keywords": [
+    "container",
+    "toolkit",
+    "lxc",
+    "lxd",
+    "api"
+  ],
+  "author": "Joseph Werle <joseph.werle@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/little-core-labs/little-container-box.git"
+  },
+  "bugs": {
+    "url": "https://github.com/little-core-labs/little-container-box/issues"
+  },
+  "homepage": "https://github.com/little-core-labs/little-container-box#readme"
+}
