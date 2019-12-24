@@ -1,7 +1,7 @@
 {
   "name": "little-container-box",
   "version": "0.0.0",
-  "description": "A small toolkit for creating and managing Linux Containers (LXC).",
+  "description": "A small toolkit for creating and managing Linux Containers (LXC) with access control (ABAC, CBAC, RBAC).",
   "main": "index.js",
   "scripts": {
     "test": "nyc tape test/*.js"
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/little-core-labs/little-container-box/issues"
   },
-  "homepage": "https://github.com/little-core-labs/little-container-box#readme"
+  "homepage": "https://github.com/little-core-labs/little-container-box#readme",
+  "dependencies": {
+    "role-acl": "^4.3.2",
+    "ts-lxd": "^0.1.9"
+  }
 }
